@@ -22,7 +22,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware
-app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:5173'] }));
+app.use(cors());
 app.use(express.json());
 
 // ─── In-memory data store (replace with DB in production) ───────────────────
@@ -228,10 +228,14 @@ app.use((req, res) => {
   res.status(404).json({ success: false, error: `Route ${req.method} ${req.path} not found` });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`\n🚀 Mentor360 API Server running on http://localhost:${PORT}`);
-  console.log(`   Health check: http://localhost:${PORT}/api/health`);
-  console.log(`   Schools:      http://localhost:${PORT}/api/schools`);
-  console.log(`   Dashboard:    http://localhost:${PORT}/api/dashboard/summary\n`);
-});
+// Start server in standalone environment
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`\n🚀 Mentor360 API Server running on http://localhost:${PORT}`);
+    console.log(`   Health check: http://localhost:${PORT}/api/health`);
+    console.log(`   Schools:      http://localhost:${PORT}/api/schools`);
+    console.log(`   Dashboard:    http://localhost:${PORT}/api/dashboard/summary\n`);
+  });
+}
+
+export default app;
