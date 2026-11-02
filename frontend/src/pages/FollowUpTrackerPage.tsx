@@ -8,6 +8,7 @@ import {
   saveActionPlan
 } from '../services/database';
 import { ActionStatusBadge, IndicatorBadge } from '../components/common/Badge';
+import { predictFollowUpRisk } from '../utils/followUpRisk';
 import {
   ListChecks,
   Search,
@@ -114,6 +115,9 @@ export const FollowUpTrackerPage: React.FC = () => {
   const selectedPlan = actionPlans.find(p => p.id === selectedPlanId) || actionPlans[0];
   const selectedSchool = schools.find(s => s.id === selectedPlan?.schoolId);
   const selectedObs = observations.find(o => o.id === selectedPlan?.observationId);
+  const followUpRisk = selectedPlan && selectedPlan.status !== 'Completed'
+    ? predictFollowUpRisk(selectedPlan, selectedObs)
+    : null;
 
   // Filter logic
   const filteredPlans = actionPlans.filter((p) => {
@@ -275,6 +279,28 @@ export const FollowUpTrackerPage: React.FC = () => {
                 </div>
               </div>
             </div>
+
+            {followUpRisk && (
+              <div className="card-base p-4 bg-amber-50 border-amber-200 space-y-2">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div>
+                    <h3 className="font-bold text-sm text-[#25332F]">Experimental follow-up risk estimate</h3>
+                    <p className="text-xs text-[#5A6F68]">
+                      {followUpRisk.level} estimated chance of a late follow-up: {Math.round(followUpRisk.probability * 100)}%
+                    </p>
+                  </div>
+                  <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2 py-1 rounded-full self-start">
+                    Synthetic-data prototype
+                  </span>
+                </div>
+                <p className="text-[11px] text-[#5A6F68]">
+                  Logistic Regression uses the planned {followUpRisk.followUpDays}-day interval and
+                  {' '}{followUpRisk.needsSupportCount} observed support need(s).
+                  {followUpRisk.hasObservation ? '' : ' No linked observation was found, so this estimate has less input data.'}
+                  {' '}This is a demo estimate, not validated on real follow-up outcomes or a judgment of teacher performance.
+                </p>
+              </div>
+            )}
 
             {/* Observation Comparison Card matching Figma Screen 7 */}
             <div className="card-base p-5 bg-white space-y-3">
