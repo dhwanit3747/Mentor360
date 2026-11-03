@@ -1,0 +1,241 @@
+record_id,school_id,school_name,cluster,grade,subject,total_students,total_teachers,ptr,days_since_last_visit,previous_visit_count,past_followup_completion_rate,unresolved_needs_count,ind_lesson_objective,ind_teaching_strategy,ind_student_participation,ind_use_of_tlm,ind_formative_assessment,ind_inclusive_participation,composite_pedagogical_score,priority_score,urgency_level,recommended_activity
+REC-0028,SCH-1027,Saraswati Primary School - Sector 3,Raipur Rural Cluster 2,Grade 4,Numeracy,181,5,36.2,41,3,0.826,2,2,1,0,0,0,2,5,62.73,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0631,SCH-1070,Shakti Govt Primary School - Sector 8,Raipur Rural Cluster 1,Grade 4,Literacy,156,5,31.2,19,6,0.533,2,2,2,2,0,1,1,8,39.07,Normal Priority,Akshar-Chitra Wall Chart
+REC-0792,SCH-1071,Panchayat Primary School - Sector 8,Raipur Rural Cluster 3,Grade 3,Numeracy,76,3,25.33,57,5,0.247,1,0,0,0,2,0,0,2,82.66,High Priority,Think-Pair-Share Math Talk
+REC-1198,SCH-1077,Kendriya Prathmik Vidyalaya - Sector 8,Raipur Rural Cluster 2,Grade 2,Literacy,251,7,35.86,26,4,0.794,5,1,1,1,2,0,0,5,69.87,High Priority,Quick Thumbs Check / Exit Slates
+REC-0813,SCH-1012,Vivekananda Shiksha Niketan - Sector 2,Raipur Rural Cluster 3,Grade 4,Numeracy,117,3,39.0,16,7,0.789,2,0,1,0,2,2,1,6,45.78,Medium Priority,Think-Pair-Share Math Talk
+REC-0879,SCH-1078,Gramin Buniyadi Shala - Sector 8,Raipur Rural Cluster 4,Grade 2,Numeracy,80,2,40.0,24,6,0.914,3,1,1,1,0,0,0,3,64.36,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0604,SCH-1043,Gramin Buniyadi Shala - Sector 5,Raipur Rural Cluster 4,Grade 5,Literacy,104,4,26.0,37,5,0.462,3,0,1,1,0,0,2,4,67.9,High Priority,Akshar-Chitra Wall Chart
+REC-0839,SCH-1038,Mahatma Gandhi Bal Vidyalaya - Sector 4,Raipur Rural Cluster 4,Grade 2,Literacy,177,5,35.4,8,3,0.434,2,0,2,2,2,1,1,8,38.99,Normal Priority,Guided Partner Reading
+REC-0917,SCH-1036,Gramin Buniyadi Shala - Sector 4,Raipur Rural Cluster 4,Grade 1,Literacy,230,6,38.33,55,3,0.946,1,1,0,0,1,2,1,5,54.95,Medium Priority,Guided Partner Reading
+REC-0046,SCH-1045,Shakti Govt Primary School - Sector 5,Raipur Rural Cluster 4,Grade 3,Numeracy,87,2,43.5,15,10,0.641,1,2,0,1,0,0,2,5,47.85,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0780,SCH-1059,Zilla Parishad Primary School - Sector 6,Raipur Rural Cluster 1,Grade 2,Numeracy,179,6,29.83,5,8,0.658,0,0,0,2,1,1,0,4,37.35,Normal Priority,Concrete Stick Bundles & Loose Sticks
+REC-1154,SCH-1033,Prathmik Shala Shaktipur - Sector 4,Raipur Rural Cluster 4,Grade 1,Literacy,171,7,24.43,4,4,0.751,3,2,1,1,2,0,0,6,42.6,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0903,SCH-1022,Mahatma Gandhi Bal Vidyalaya - Sector 3,Raipur Rural Cluster 1,Grade 2,Literacy,63,2,31.5,12,5,0.511,1,0,1,0,2,0,2,5,45.45,Medium Priority,Guided Partner Reading
+REC-0373,SCH-1052,Kasturba Gandhi Balika Vidyalaya - Sector 6,Raipur Rural Cluster 2,Grade 1,Numeracy,161,6,26.83,61,5,0.612,0,2,2,2,0,1,2,9,47.57,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0525,SCH-1044,Panchayat Primary School - Sector 5,Raipur Rural Cluster 4,Grade 1,Literacy,236,5,47.2,13,4,0.634,2,0,0,0,0,0,0,0,62.57,Medium Priority,Akshar-Chitra Wall Chart
+REC-0500,SCH-1019,Prathmik Vidyalaya Rampur - Sector 2,Raipur Rural Cluster 3,Grade 3,Numeracy,177,6,29.5,12,2,0.955,2,2,0,0,0,0,1,3,53.01,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0846,SCH-1045,Adarsh Prathmik Shala - Sector 5,Raipur Rural Cluster 4,Grade 5,Numeracy,221,7,31.57,5,5,0.489,5,0,1,2,1,2,0,6,57.72,Medium Priority,Think-Pair-Share Math Talk
+REC-0085,SCH-1004,Mahatma Gandhi Bal Vidyalaya - Sector 1,Raipur Rural Cluster 1,Grade 5,Literacy,147,4,36.75,71,3,0.689,1,2,0,1,2,2,1,8,61.55,Medium Priority,Guided Partner Reading
+REC-0075,SCH-1074,Vivekananda Shiksha Niketan - Sector 8,Raipur Rural Cluster 2,Grade 1,Numeracy,35,2,17.5,7,8,0.802,3,0,0,2,1,0,2,5,41.53,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-1096,SCH-1055,Adarsh Prathmik Shala - Sector 6,Raipur Rural Cluster 4,Grade 3,Numeracy,123,3,41.0,18,5,0.732,1,1,0,0,0,1,0,2,53.99,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0746,SCH-1025,Adarsh Prathmik Shala - Sector 3,Raipur Rural Cluster 2,Grade 5,Numeracy,119,4,29.75,5,6,0.908,2,2,1,1,2,1,0,7,30.08,Normal Priority,Think-Pair-Share Math Talk
+REC-0328,SCH-1007,Mahatma Gandhi Bal Vidyalaya - Sector 1,Raipur Rural Cluster 3,Grade 5,Numeracy,89,3,29.67,38,4,0.516,4,1,0,1,1,2,2,7,66.19,High Priority,Concrete Stick Bundles & Loose Sticks
+REC-0970,SCH-1009,Prathmik Vidyalaya Rampur - Sector 1,Raipur Rural Cluster 3,Grade 5,Numeracy,193,4,48.25,51,6,0.888,2,0,0,0,2,1,1,4,66.18,High Priority,Think-Pair-Share Math Talk
+REC-0187,SCH-1026,Navodaya Prathmik Shala - Sector 3,Raipur Rural Cluster 1,Grade 5,Numeracy,120,4,30.0,45,7,0.784,2,2,0,2,0,0,1,5,54.46,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0705,SCH-1064,Saraswati Primary School - Sector 7,Raipur Rural Cluster 1,Grade 4,Numeracy,175,6,29.17,13,8,0.815,1,0,2,1,0,0,2,5,40.63,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0773,SCH-1052,Mahatma Gandhi Bal Vidyalaya - Sector 6,Raipur Rural Cluster 2,Grade 1,Numeracy,178,4,44.5,75,4,0.655,1,2,0,0,0,0,0,2,83.02,High Priority,Ganit Mala (Beaded Number Line)
+REC-0714,SCH-1073,Rajkiya Buniyadi Shala - Sector 8,Raipur Rural Cluster 2,Grade 2,Literacy,214,7,30.57,14,4,0.576,0,0,1,2,0,2,2,7,33.65,Normal Priority,Akshar-Chitra Wall Chart
+REC-0234,SCH-1073,Mahatma Gandhi Bal Vidyalaya - Sector 8,Raipur Rural Cluster 4,Grade 2,Literacy,152,5,30.4,5,6,0.49,5,1,0,0,2,0,2,5,60.93,Medium Priority,Guided Partner Reading
+REC-0974,SCH-1013,Rajkiya Buniyadi Shala - Sector 2,Raipur Rural Cluster 2,Grade 3,Literacy,110,3,36.67,10,3,0.667,4,1,0,0,0,0,1,2,66.68,High Priority,Akshar-Chitra Wall Chart
+REC-0321,SCH-1000,Kendriya Prathmik Vidyalaya - Sector 1,Raipur Rural Cluster 4,Grade 2,Numeracy,180,4,45.0,21,6,0.996,2,1,2,0,1,1,0,5,44.22,Medium Priority,Think-Pair-Share Math Talk
+REC-0870,SCH-1069,Prathmik Vidyalaya Rampur - Sector 7,Raipur Rural Cluster 1,Grade 4,Numeracy,116,4,29.0,29,4,0.43,2,0,2,0,2,0,0,4,56.19,Medium Priority,Think-Pair-Share Math Talk
+REC-0002,SCH-1001,Panchayat Primary School - Sector 1,Raipur Rural Cluster 3,Grade 4,Literacy,124,4,31.0,8,5,0.734,1,1,2,2,1,2,2,10,14.93,Normal Priority,Akshar-Chitra Wall Chart
+REC-0772,SCH-1051,Panchayat Primary School - Sector 6,Raipur Rural Cluster 1,Grade 3,Numeracy,90,4,22.5,26,4,0.413,2,0,2,2,2,0,2,8,42.12,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0962,SCH-1001,Mahatma Gandhi Bal Vidyalaya - Sector 1,Raipur Rural Cluster 4,Grade 5,Numeracy,102,4,25.5,16,4,0.821,1,0,2,1,2,2,1,8,24.98,Normal Priority,Think-Pair-Share Math Talk
+REC-1059,SCH-1018,Kendriya Prathmik Vidyalaya - Sector 2,Raipur Rural Cluster 2,Grade 4,Literacy,81,3,27.0,15,4,0.53,2,0,2,1,2,1,1,7,36.15,Normal Priority,Guided Partner Reading
+REC-1125,SCH-1004,Zilla Parishad Primary School - Sector 1,Raipur Rural Cluster 3,Grade 3,Numeracy,121,4,30.25,24,1,0.474,0,2,0,2,2,1,1,8,34.47,Normal Priority,Concrete Stick Bundles & Loose Sticks
+REC-1165,SCH-1044,Gramin Buniyadi Shala - Sector 5,Raipur Rural Cluster 4,Grade 5,Numeracy,90,3,30.0,46,3,0.67,1,2,0,0,1,1,0,4,60.98,Medium Priority,Think-Pair-Share Math Talk
+REC-0356,SCH-1035,Shakti Govt Primary School - Sector 4,Raipur Rural Cluster 1,Grade 3,Numeracy,78,3,26.0,15,9,0.392,1,2,1,0,2,1,0,6,42.76,Medium Priority,Think-Pair-Share Math Talk
+REC-0149,SCH-1068,Shakti Govt Primary School - Sector 7,Raipur Rural Cluster 4,Grade 1,Literacy,35,2,17.5,4,5,0.617,2,2,1,1,2,1,2,9,27.41,Normal Priority,Akshar-Chitra Wall Chart
+REC-0059,SCH-1058,Gramin Buniyadi Shala - Sector 6,Raipur Rural Cluster 1,Grade 4,Literacy,152,5,30.4,50,7,0.777,2,1,0,1,2,0,1,5,59.36,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0414,SCH-1013,Shakti Govt Primary School - Sector 2,Raipur Rural Cluster 1,Grade 1,Literacy,39,2,19.5,28,2,0.732,1,1,2,1,2,1,1,8,35.1,Normal Priority,Guided Partner Reading
+REC-1044,SCH-1003,Gramin Buniyadi Shala - Sector 1,Raipur Rural Cluster 2,Grade 3,Numeracy,91,3,30.33,28,3,0.595,0,2,2,2,0,2,0,8,35.93,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0957,SCH-1076,Vivekananda Shiksha Niketan - Sector 8,Raipur Rural Cluster 3,Grade 2,Numeracy,216,7,30.86,4,3,0.857,0,1,2,2,1,0,1,7,26.73,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-1095,SCH-1054,Saraswati Primary School - Sector 6,Raipur Rural Cluster 2,Grade 1,Literacy,111,3,37.0,31,3,0.771,0,0,0,0,1,0,0,1,59.22,Medium Priority,Guided Partner Reading
+REC-1121,SCH-1000,Prathmik Vidyalaya Rampur - Sector 1,Raipur Rural Cluster 1,Grade 2,Numeracy,83,3,27.67,5,5,0.581,2,0,1,2,2,0,2,7,34.35,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-1068,SCH-1027,Bal Bharti Vidyalaya - Sector 3,Raipur Rural Cluster 3,Grade 5,Numeracy,137,6,22.83,13,5,0.727,2,1,0,2,1,0,1,5,37.19,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0557,SCH-1076,Navodaya Prathmik Shala - Sector 8,Raipur Rural Cluster 2,Grade 1,Literacy,139,4,34.75,8,9,0.779,2,2,2,0,2,0,2,8,30.45,Normal Priority,Guided Partner Reading
+REC-1141,SCH-1020,Navodaya Prathmik Shala - Sector 3,Raipur Rural Cluster 2,Grade 4,Numeracy,153,6,25.5,39,5,0.842,0,2,2,1,2,2,1,10,23.29,Normal Priority,Think-Pair-Share Math Talk
+REC-0477,SCH-1076,Shakti Govt Primary School - Sector 8,Raipur Rural Cluster 2,Grade 1,Literacy,105,3,35.0,6,2,0.517,2,0,1,1,2,0,0,4,48.4,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0194,SCH-1033,Zilla Parishad Primary School - Sector 4,Raipur Rural Cluster 1,Grade 5,Literacy,155,5,31.0,6,3,0.962,2,0,0,0,0,1,2,3,47.44,Medium Priority,Akshar-Chitra Wall Chart
+REC-0951,SCH-1070,Panchayat Primary School - Sector 8,Raipur Rural Cluster 4,Grade 1,Numeracy,108,3,36.0,8,2,0.739,3,1,1,0,0,1,0,3,53.99,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0019,SCH-1018,Saraswati Primary School - Sector 2,Raipur Rural Cluster 2,Grade 1,Literacy,196,5,39.2,22,2,0.786,4,2,1,0,0,0,0,3,68.29,High Priority,Akshar-Chitra Wall Chart
+REC-0114,SCH-1033,Shakti Govt Primary School - Sector 4,Raipur Rural Cluster 2,Grade 2,Numeracy,57,3,19.0,37,5,0.404,1,2,1,2,1,1,0,7,43.43,Medium Priority,Think-Pair-Share Math Talk
+REC-0789,SCH-1068,Prathmik Shala Shaktipur - Sector 7,Raipur Rural Cluster 2,Grade 5,Numeracy,57,2,28.5,11,6,0.585,2,0,2,0,2,2,2,8,34.8,Normal Priority,Think-Pair-Share Math Talk
+REC-0076,SCH-1075,Navodaya Prathmik Shala - Sector 8,Raipur Rural Cluster 4,Grade 2,Numeracy,81,4,20.25,11,6,0.698,1,0,2,0,2,1,1,6,36.79,Normal Priority,Think-Pair-Share Math Talk
+REC-0231,SCH-1070,Saraswati Primary School - Sector 8,Raipur Rural Cluster 4,Grade 3,Numeracy,73,2,36.5,45,9,0.739,1,0,0,2,2,1,2,7,50.76,Medium Priority,Concrete Stick Bundles & Loose Sticks
+REC-0617,SCH-1056,Kasturba Gandhi Balika Vidyalaya - Sector 6,Raipur Rural Cluster 1,Grade 3,Literacy,86,2,43.0,26,4,0.594,2,2,0,0,0,1,0,3,62.65,Medium Priority,Akshar-Chitra Wall Chart
+REC-0579,SCH-1018,Shakti Govt Primary School - Sector 2,Raipur Rural Cluster 4,Grade 4,Literacy,52,2,26.0,5,3,0.935,3,0,2,0,1,0,0,3,50.66,Medium Priority,Guided Partner Reading
+REC-0008,SCH-1007,Prathmik Vidyalaya Rampur - Sector 1,Raipur Rural Cluster 3,Grade 1,Literacy,178,5,35.6,15,11,0.675,0,0,2,2,0,1,1,6,34.87,Normal Priority,Akshar-Chitra Wall Chart
+REC-0719,SCH-1078,Gramin Buniyadi Shala - Sector 8,Raipur Rural Cluster 4,Grade 3,Literacy,82,3,27.33,5,8,0.847,0,2,2,2,1,0,2,9,11.19,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0463,SCH-1062,Adarsh Prathmik Shala - Sector 7,Raipur Rural Cluster 2,Grade 1,Literacy,159,4,39.75,7,6,0.804,0,0,1,1,0,0,2,4,39.73,Normal Priority,Akshar-Chitra Wall Chart
+REC-1040,SCH-1079,Zilla Parishad Primary School - Sector 8,Raipur Rural Cluster 1,Grade 5,Numeracy,120,6,20.0,17,6,0.498,0,2,0,2,2,2,2,10,17.68,Normal Priority,Concrete Stick Bundles & Loose Sticks
+REC-0403,SCH-1002,Shakti Govt Primary School - Sector 1,Raipur Rural Cluster 3,Grade 5,Numeracy,134,3,44.67,10,6,0.898,2,2,1,1,2,1,0,7,39.16,Normal Priority,Think-Pair-Share Math Talk
+REC-0104,SCH-1023,Gramin Buniyadi Shala - Sector 3,Raipur Rural Cluster 4,Grade 5,Literacy,102,4,25.5,59,3,0.74,2,2,2,1,1,2,2,10,44.9,Medium Priority,Akshar-Chitra Wall Chart
+REC-0013,SCH-1012,Kendriya Prathmik Vidyalaya - Sector 2,Raipur Rural Cluster 1,Grade 4,Literacy,151,5,30.2,17,5,0.886,4,2,1,0,2,2,2,9,40.34,Medium Priority,Guided Partner Reading
+REC-0241,SCH-1000,Mahatma Gandhi Bal Vidyalaya - Sector 1,Raipur Rural Cluster 4,Grade 5,Numeracy,140,4,35.0,34,1,0.719,2,2,1,0,0,1,2,6,56.33,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0308,SCH-1067,Prathmik Shala Shaktipur - Sector 7,Raipur Rural Cluster 4,Grade 2,Numeracy,100,5,20.0,54,8,0.922,3,0,0,0,0,2,2,4,65.29,High Priority,Ganit Mala (Beaded Number Line)
+REC-1119,SCH-1078,Mahatma Gandhi Bal Vidyalaya - Sector 8,Raipur Rural Cluster 1,Grade 1,Numeracy,97,4,24.25,15,5,0.703,2,1,1,1,0,1,0,4,44.44,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0024,SCH-1023,Kasturba Gandhi Balika Vidyalaya - Sector 3,Raipur Rural Cluster 1,Grade 4,Numeracy,108,4,27.0,6,3,0.857,0,2,0,1,2,2,2,9,17.51,Normal Priority,Concrete Stick Bundles & Loose Sticks
+REC-0808,SCH-1007,Shakti Govt Primary School - Sector 1,Raipur Rural Cluster 1,Grade 3,Literacy,89,3,29.67,18,5,0.695,2,0,2,0,2,2,2,8,31.67,Normal Priority,Guided Partner Reading
+REC-0862,SCH-1061,Kendriya Prathmik Vidyalaya - Sector 7,Raipur Rural Cluster 4,Grade 3,Numeracy,91,3,30.33,6,6,0.55,2,0,0,0,1,1,2,4,46.25,Medium Priority,Think-Pair-Share Math Talk
+REC-1149,SCH-1028,Saraswati Primary School - Sector 3,Raipur Rural Cluster 4,Grade 2,Literacy,153,6,25.5,17,5,0.813,0,0,2,0,0,1,0,3,41.21,Medium Priority,Akshar-Chitra Wall Chart
+REC-0523,SCH-1042,Vivekananda Shiksha Niketan - Sector 5,Raipur Rural Cluster 2,Grade 5,Literacy,170,4,42.5,51,6,0.828,1,2,2,2,0,1,0,7,53.98,Medium Priority,Akshar-Chitra Wall Chart
+REC-1200,SCH-1079,Shakti Govt Primary School - Sector 8,Raipur Rural Cluster 1,Grade 5,Literacy,258,5,51.6,22,3,0.772,3,0,1,1,2,0,1,5,56.07,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-1168,SCH-1047,Panchayat Primary School - Sector 5,Raipur Rural Cluster 3,Grade 4,Numeracy,260,6,43.33,43,6,0.711,2,2,2,2,0,0,0,6,61.1,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0559,SCH-1078,Prathmik Shala Shaktipur - Sector 8,Raipur Rural Cluster 3,Grade 1,Literacy,38,2,19.0,24,1,0.831,3,2,0,2,2,0,1,7,41.75,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-1060,SCH-1019,Kasturba Gandhi Balika Vidyalaya - Sector 2,Raipur Rural Cluster 4,Grade 4,Literacy,158,5,31.6,4,4,0.626,4,2,2,2,2,2,2,12,21.06,Normal Priority,Akshar-Chitra Wall Chart
+REC-0113,SCH-1032,Prathmik Shala Shaktipur - Sector 4,Raipur Rural Cluster 3,Grade 4,Literacy,166,5,33.2,24,4,0.617,1,0,0,1,2,1,2,6,40.62,Medium Priority,Akshar-Chitra Wall Chart
+REC-0926,SCH-1045,Saraswati Primary School - Sector 5,Raipur Rural Cluster 2,Grade 4,Literacy,95,4,23.75,17,7,0.347,3,2,0,2,0,0,2,6,46.73,Medium Priority,Akshar-Chitra Wall Chart
+REC-1178,SCH-1057,Prathmik Shala Shaktipur - Sector 6,Raipur Rural Cluster 2,Grade 3,Numeracy,128,3,42.67,18,2,0.353,2,0,0,0,1,1,0,2,63.43,Medium Priority,Think-Pair-Share Math Talk
+REC-1001,SCH-1040,Vivekananda Shiksha Niketan - Sector 5,Raipur Rural Cluster 2,Grade 4,Numeracy,104,4,26.0,9,1,0.717,0,0,2,1,2,0,2,7,25.27,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0836,SCH-1035,Rajkiya Buniyadi Shala - Sector 4,Raipur Rural Cluster 4,Grade 3,Literacy,97,3,32.33,64,3,0.738,0,0,0,0,2,0,0,2,65.33,High Priority,Guided Partner Reading
+REC-0292,SCH-1051,Zilla Parishad Primary School - Sector 6,Raipur Rural Cluster 2,Grade 5,Literacy,143,4,35.75,55,2,0.541,1,1,2,2,1,0,2,8,53.32,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0210,SCH-1049,Adarsh Prathmik Shala - Sector 5,Raipur Rural Cluster 2,Grade 1,Numeracy,114,3,38.0,51,5,0.884,1,2,2,2,0,2,0,8,46.48,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0551,SCH-1070,Gramin Buniyadi Shala - Sector 8,Raipur Rural Cluster 2,Grade 1,Literacy,62,4,15.5,26,6,0.531,2,1,1,1,1,1,0,5,45.23,Medium Priority,Guided Partner Reading
+REC-0071,SCH-1070,Prathmik Shala Shaktipur - Sector 8,Raipur Rural Cluster 3,Grade 1,Numeracy,86,2,43.0,75,5,0.851,3,0,0,0,0,0,1,1,97.71,High Priority,Ganit Mala (Beaded Number Line)
+REC-0428,SCH-1027,Bal Bharti Vidyalaya - Sector 3,Raipur Rural Cluster 1,Grade 3,Numeracy,173,5,34.6,50,5,0.596,3,1,2,0,0,1,2,6,64.56,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0152,SCH-1071,Adarsh Prathmik Shala - Sector 8,Raipur Rural Cluster 4,Grade 3,Numeracy,46,2,23.0,39,6,0.945,1,2,1,1,2,2,2,10,28.75,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0224,SCH-1063,Vivekananda Shiksha Niketan - Sector 7,Raipur Rural Cluster 1,Grade 2,Numeracy,67,3,22.33,38,6,0.291,3,2,1,0,0,2,0,5,57.99,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0541,SCH-1060,Gramin Buniyadi Shala - Sector 7,Raipur Rural Cluster 4,Grade 5,Numeracy,64,3,21.33,10,7,0.723,4,0,2,0,1,0,1,4,59.2,Medium Priority,Think-Pair-Share Math Talk
+REC-0740,SCH-1019,Kasturba Gandhi Balika Vidyalaya - Sector 2,Raipur Rural Cluster 4,Grade 1,Literacy,162,4,40.5,26,3,0.423,1,2,0,2,2,0,2,8,41.03,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-1199,SCH-1078,Gramin Buniyadi Shala - Sector 8,Raipur Rural Cluster 4,Grade 2,Literacy,55,3,18.33,32,8,0.91,2,1,1,1,1,0,0,4,51.27,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0724,SCH-1003,Navodaya Prathmik Shala - Sector 1,Raipur Rural Cluster 3,Grade 4,Numeracy,73,3,24.33,10,4,0.903,2,2,2,2,2,2,1,11,22.61,Normal Priority,Think-Pair-Share Math Talk
+REC-1009,SCH-1048,Gramin Buniyadi Shala - Sector 5,Raipur Rural Cluster 4,Grade 4,Literacy,114,3,38.0,25,11,0.923,1,2,2,2,2,1,2,11,25.35,Normal Priority,Akshar-Chitra Wall Chart
+REC-0718,SCH-1077,Gramin Buniyadi Shala - Sector 8,Raipur Rural Cluster 3,Grade 3,Numeracy,70,2,35.0,10,5,0.919,3,0,1,0,0,2,0,3,59.69,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0277,SCH-1036,Mahatma Gandhi Bal Vidyalaya - Sector 4,Raipur Rural Cluster 4,Grade 2,Numeracy,90,4,22.5,62,6,0.882,2,1,2,2,0,2,0,7,56.11,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-1174,SCH-1053,Bal Bharti Vidyalaya - Sector 6,Raipur Rural Cluster 1,Grade 3,Numeracy,60,2,30.0,20,4,0.539,1,0,1,0,2,2,2,7,44.75,Medium Priority,Think-Pair-Share Math Talk
+REC-0083,SCH-1002,Rajkiya Buniyadi Shala - Sector 1,Raipur Rural Cluster 3,Grade 4,Numeracy,109,4,27.25,9,7,0.802,2,1,1,1,1,1,1,6,46.3,Medium Priority,Think-Pair-Share Math Talk
+REC-0679,SCH-1038,Zilla Parishad Primary School - Sector 4,Raipur Rural Cluster 3,Grade 5,Literacy,155,4,38.75,51,4,0.604,2,0,0,0,0,1,1,2,81.53,High Priority,Akshar-Chitra Wall Chart
+REC-0633,SCH-1072,Prathmik Shala Shaktipur - Sector 8,Raipur Rural Cluster 1,Grade 3,Literacy,134,4,33.5,9,5,0.447,3,0,2,0,2,2,2,8,42.71,Medium Priority,Guided Partner Reading
+REC-0637,SCH-1076,Vivekananda Shiksha Niketan - Sector 8,Raipur Rural Cluster 3,Grade 5,Literacy,201,5,40.2,22,4,0.665,2,1,2,1,2,0,1,7,48.5,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0598,SCH-1037,Vivekananda Shiksha Niketan - Sector 4,Raipur Rural Cluster 1,Grade 2,Literacy,150,5,30.0,10,2,0.912,1,2,2,2,2,1,2,11,10.27,Normal Priority,Akshar-Chitra Wall Chart
+REC-0164,SCH-1003,Navodaya Prathmik Shala - Sector 1,Raipur Rural Cluster 2,Grade 1,Literacy,110,3,36.67,8,4,0.985,0,2,2,2,1,2,2,11,5.0,Normal Priority,Akshar-Chitra Wall Chart
+REC-0393,SCH-1072,Adarsh Prathmik Shala - Sector 8,Raipur Rural Cluster 2,Grade 5,Numeracy,91,3,30.33,35,5,0.702,1,2,2,1,1,2,1,9,32.62,Normal Priority,Think-Pair-Share Math Talk
+REC-1027,SCH-1066,Mahatma Gandhi Bal Vidyalaya - Sector 7,Raipur Rural Cluster 1,Grade 1,Numeracy,135,5,27.0,9,4,0.585,1,1,1,1,1,0,1,5,37.3,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0440,SCH-1039,Rajkiya Buniyadi Shala - Sector 4,Raipur Rural Cluster 2,Grade 5,Literacy,210,5,42.0,19,6,0.866,2,0,2,0,0,2,1,5,46.63,Medium Priority,Akshar-Chitra Wall Chart
+REC-1122,SCH-1001,Rajkiya Buniyadi Shala - Sector 1,Raipur Rural Cluster 1,Grade 1,Literacy,82,2,41.0,32,5,0.642,5,1,1,1,0,1,1,5,68.04,High Priority,Akshar-Chitra Wall Chart
+REC-0353,SCH-1032,Kendriya Prathmik Vidyalaya - Sector 4,Raipur Rural Cluster 1,Grade 3,Literacy,63,2,31.5,23,3,0.655,5,0,0,0,1,0,0,1,78.66,High Priority,Guided Partner Reading
+REC-1038,SCH-1077,Zilla Parishad Primary School - Sector 8,Raipur Rural Cluster 1,Grade 2,Numeracy,95,3,31.67,22,4,0.616,3,0,2,0,0,1,0,3,65.73,High Priority,Ganit Mala (Beaded Number Line)
+REC-0597,SCH-1036,Prathmik Vidyalaya Rampur - Sector 4,Raipur Rural Cluster 1,Grade 2,Numeracy,206,6,34.33,20,3,0.476,4,2,0,0,0,2,2,6,59.17,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0343,SCH-1022,Gramin Buniyadi Shala - Sector 3,Raipur Rural Cluster 4,Grade 4,Literacy,154,7,22.0,44,5,0.821,1,0,0,1,2,0,2,5,50.27,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-1130,SCH-1009,Shakti Govt Primary School - Sector 1,Raipur Rural Cluster 2,Grade 3,Literacy,35,2,17.5,6,7,0.909,2,0,0,0,0,1,0,1,54.13,Medium Priority,Akshar-Chitra Wall Chart
+REC-0424,SCH-1023,Rajkiya Buniyadi Shala - Sector 3,Raipur Rural Cluster 3,Grade 4,Literacy,126,6,21.0,23,3,0.601,1,2,2,1,0,2,2,9,34.21,Normal Priority,Akshar-Chitra Wall Chart
+REC-0776,SCH-1055,Adarsh Prathmik Shala - Sector 6,Raipur Rural Cluster 2,Grade 5,Literacy,64,3,21.33,6,6,0.83,4,1,2,0,2,0,0,5,45.38,Medium Priority,Guided Partner Reading
+REC-0436,SCH-1035,Mahatma Gandhi Bal Vidyalaya - Sector 4,Raipur Rural Cluster 2,Grade 2,Literacy,121,4,30.25,21,4,0.895,2,2,2,0,1,2,0,7,42.8,Medium Priority,Guided Partner Reading
+REC-0761,SCH-1040,Vivekananda Shiksha Niketan - Sector 5,Raipur Rural Cluster 3,Grade 1,Literacy,173,5,34.6,5,3,0.777,1,1,2,0,2,2,0,7,36.73,Normal Priority,Guided Partner Reading
+REC-0449,SCH-1048,Navodaya Prathmik Shala - Sector 5,Raipur Rural Cluster 4,Grade 5,Literacy,61,2,30.5,75,5,0.46,1,0,1,2,2,0,0,5,70.4,High Priority,Quick Thumbs Check / Exit Slates
+REC-0841,SCH-1040,Navodaya Prathmik Shala - Sector 5,Raipur Rural Cluster 4,Grade 1,Numeracy,200,7,28.57,24,6,0.681,2,0,0,2,1,2,1,6,41.51,Medium Priority,Concrete Stick Bundles & Loose Sticks
+REC-1117,SCH-1076,Bal Bharti Vidyalaya - Sector 8,Raipur Rural Cluster 4,Grade 5,Numeracy,226,7,32.29,5,2,0.836,1,2,1,2,1,1,1,8,25.09,Normal Priority,Think-Pair-Share Math Talk
+REC-0496,SCH-1015,Prathmik Vidyalaya Rampur - Sector 2,Raipur Rural Cluster 2,Grade 2,Literacy,75,3,25.0,22,5,0.606,1,2,0,2,2,2,2,10,30.6,Normal Priority,Akshar-Chitra Wall Chart
+REC-0683,SCH-1042,Zilla Parishad Primary School - Sector 5,Raipur Rural Cluster 3,Grade 5,Literacy,142,5,28.4,25,7,0.892,4,0,2,1,1,2,0,6,54.22,Medium Priority,Guided Partner Reading
+REC-0242,SCH-1001,Navodaya Prathmik Shala - Sector 1,Raipur Rural Cluster 2,Grade 1,Numeracy,89,5,17.8,17,7,0.513,0,0,2,0,2,1,2,7,28.35,Normal Priority,Think-Pair-Share Math Talk
+REC-0003,SCH-1002,Shakti Govt Primary School - Sector 1,Raipur Rural Cluster 2,Grade 4,Numeracy,184,6,30.67,14,5,0.78,3,2,2,0,0,0,2,6,40.23,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0979,SCH-1018,Zilla Parishad Primary School - Sector 2,Raipur Rural Cluster 4,Grade 1,Literacy,105,3,35.0,28,4,0.851,4,1,1,0,0,1,0,3,68.75,High Priority,Akshar-Chitra Wall Chart
+REC-1151,SCH-1030,Shakti Govt Primary School - Sector 4,Raipur Rural Cluster 4,Grade 2,Literacy,44,2,22.0,29,6,0.777,5,2,1,2,1,2,0,8,46.02,Medium Priority,Guided Partner Reading
+REC-0347,SCH-1026,Gramin Buniyadi Shala - Sector 3,Raipur Rural Cluster 3,Grade 2,Literacy,235,6,39.17,4,4,0.464,2,0,0,0,1,1,2,4,46.78,Medium Priority,Guided Partner Reading
+REC-0108,SCH-1027,Kasturba Gandhi Balika Vidyalaya - Sector 3,Raipur Rural Cluster 1,Grade 2,Numeracy,56,3,18.67,75,8,0.631,3,0,2,2,1,2,0,7,74.75,High Priority,Think-Pair-Share Math Talk
+REC-0384,SCH-1063,Zilla Parishad Primary School - Sector 7,Raipur Rural Cluster 3,Grade 1,Numeracy,108,3,36.0,10,7,0.175,2,0,1,1,1,1,0,4,50.76,Medium Priority,Think-Pair-Share Math Talk
+REC-1107,SCH-1066,Bal Bharti Vidyalaya - Sector 7,Raipur Rural Cluster 3,Grade 3,Numeracy,105,4,26.25,10,3,0.624,2,1,0,2,0,0,2,5,44.38,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0060,SCH-1059,Mahatma Gandhi Bal Vidyalaya - Sector 6,Raipur Rural Cluster 2,Grade 5,Numeracy,118,5,23.6,6,6,0.586,1,1,2,0,2,2,0,7,27.1,Normal Priority,Think-Pair-Share Math Talk
+REC-0043,SCH-1042,Mahatma Gandhi Bal Vidyalaya - Sector 5,Raipur Rural Cluster 1,Grade 3,Literacy,91,3,30.33,44,5,0.824,0,2,1,0,2,1,2,8,37.11,Normal Priority,Guided Partner Reading
+REC-0887,SCH-1006,Vivekananda Shiksha Niketan - Sector 1,Raipur Rural Cluster 1,Grade 4,Numeracy,58,2,29.0,5,5,0.789,2,0,2,1,2,1,0,6,35.27,Normal Priority,Think-Pair-Share Math Talk
+REC-0708,SCH-1067,Prathmik Vidyalaya Rampur - Sector 7,Raipur Rural Cluster 3,Grade 4,Numeracy,139,5,27.8,29,3,0.573,2,2,2,1,0,2,0,7,43.55,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0368,SCH-1047,Shakti Govt Primary School - Sector 5,Raipur Rural Cluster 3,Grade 3,Literacy,72,3,24.0,9,3,0.702,2,2,0,2,0,2,2,8,30.51,Normal Priority,Akshar-Chitra Wall Chart
+REC-0246,SCH-1005,Shakti Govt Primary School - Sector 1,Raipur Rural Cluster 1,Grade 1,Numeracy,197,5,39.4,20,9,0.564,1,0,0,1,0,1,1,3,57.45,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0398,SCH-1077,Vivekananda Shiksha Niketan - Sector 8,Raipur Rural Cluster 2,Grade 5,Numeracy,153,4,38.25,71,4,0.897,3,2,1,0,2,2,1,8,66.72,High Priority,Think-Pair-Share Math Talk
+REC-0684,SCH-1043,Zilla Parishad Primary School - Sector 5,Raipur Rural Cluster 2,Grade 4,Literacy,155,4,38.75,30,5,0.671,1,2,1,1,0,1,0,5,47.96,Medium Priority,Akshar-Chitra Wall Chart
+REC-1156,SCH-1035,Navodaya Prathmik Shala - Sector 4,Raipur Rural Cluster 3,Grade 1,Literacy,147,4,36.75,7,5,0.329,2,0,1,1,2,0,1,5,42.33,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0352,SCH-1031,Prathmik Vidyalaya Rampur - Sector 4,Raipur Rural Cluster 3,Grade 1,Numeracy,196,6,32.67,26,6,0.749,5,1,1,2,2,1,2,9,44.46,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0037,SCH-1036,Zilla Parishad Primary School - Sector 4,Raipur Rural Cluster 4,Grade 1,Numeracy,121,4,30.25,28,4,0.442,0,2,2,0,1,1,1,7,34.1,Normal Priority,Think-Pair-Share Math Talk
+REC-0818,SCH-1017,Mahatma Gandhi Bal Vidyalaya - Sector 2,Raipur Rural Cluster 3,Grade 4,Literacy,87,3,29.0,12,4,0.897,1,2,0,0,1,0,2,5,37.61,Normal Priority,Guided Partner Reading
+REC-0358,SCH-1037,Vivekananda Shiksha Niketan - Sector 4,Raipur Rural Cluster 4,Grade 2,Literacy,122,4,30.5,65,2,0.876,1,0,1,0,0,0,0,1,79.53,High Priority,Akshar-Chitra Wall Chart
+REC-0470,SCH-1069,Kasturba Gandhi Balika Vidyalaya - Sector 7,Raipur Rural Cluster 3,Grade 5,Numeracy,93,3,31.0,35,7,0.384,3,0,1,0,0,0,2,3,76.16,High Priority,Ganit Mala (Beaded Number Line)
+REC-0692,SCH-1051,Mahatma Gandhi Bal Vidyalaya - Sector 6,Raipur Rural Cluster 3,Grade 3,Numeracy,109,3,36.33,34,2,0.274,2,0,0,0,2,0,0,2,76.47,High Priority,Think-Pair-Share Math Talk
+REC-0466,SCH-1065,Saraswati Primary School - Sector 7,Raipur Rural Cluster 3,Grade 1,Literacy,104,3,34.67,6,4,0.484,3,2,2,0,2,1,1,8,42.19,Medium Priority,Guided Partner Reading
+REC-0415,SCH-1014,Panchayat Primary School - Sector 2,Raipur Rural Cluster 1,Grade 3,Numeracy,151,6,25.17,22,7,0.597,2,1,0,2,1,1,2,7,37.38,Normal Priority,Concrete Stick Bundles & Loose Sticks
+REC-0618,SCH-1057,Mahatma Gandhi Bal Vidyalaya - Sector 6,Raipur Rural Cluster 4,Grade 5,Literacy,241,7,34.43,30,6,0.623,0,2,2,0,1,2,0,7,34.76,Normal Priority,Guided Partner Reading
+REC-1155,SCH-1034,Vivekananda Shiksha Niketan - Sector 4,Raipur Rural Cluster 4,Grade 3,Literacy,56,3,18.67,75,7,0.467,3,0,0,2,2,1,2,7,71.65,High Priority,Akshar-Chitra Wall Chart
+REC-0306,SCH-1065,Vivekananda Shiksha Niketan - Sector 7,Raipur Rural Cluster 1,Grade 1,Numeracy,138,4,34.5,28,7,0.749,1,0,2,1,0,0,1,4,50.31,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0036,SCH-1035,Prathmik Vidyalaya Rampur - Sector 4,Raipur Rural Cluster 1,Grade 3,Literacy,167,5,33.4,29,6,0.902,0,0,1,2,2,2,2,9,28.86,Normal Priority,Akshar-Chitra Wall Chart
+REC-1118,SCH-1077,Prathmik Shala Shaktipur - Sector 8,Raipur Rural Cluster 2,Grade 1,Numeracy,64,2,32.0,9,3,0.445,2,2,0,1,1,2,0,6,42.2,Medium Priority,Concrete Stick Bundles & Loose Sticks
+REC-1185,SCH-1064,Kendriya Prathmik Vidyalaya - Sector 7,Raipur Rural Cluster 3,Grade 5,Numeracy,154,4,38.5,12,2,0.646,4,2,0,0,0,0,0,2,62.64,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-1058,SCH-1017,Mahatma Gandhi Bal Vidyalaya - Sector 2,Raipur Rural Cluster 4,Grade 5,Literacy,122,4,30.5,20,2,0.701,2,1,2,1,1,0,0,5,51.96,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0766,SCH-1045,Bal Bharti Vidyalaya - Sector 5,Raipur Rural Cluster 3,Grade 3,Literacy,72,4,18.0,40,3,0.569,1,1,1,0,0,2,2,6,48.03,Medium Priority,Akshar-Chitra Wall Chart
+REC-1051,SCH-1010,Rajkiya Buniyadi Shala - Sector 2,Raipur Rural Cluster 4,Grade 2,Numeracy,101,3,33.67,17,4,0.64,2,1,0,0,2,1,0,4,52.97,Medium Priority,Think-Pair-Share Math Talk
+REC-0404,SCH-1003,Rajkiya Buniyadi Shala - Sector 1,Raipur Rural Cluster 3,Grade 2,Numeracy,239,7,34.14,11,4,0.677,1,0,0,1,1,2,2,6,37.17,Normal Priority,Concrete Stick Bundles & Loose Sticks
+REC-0271,SCH-1030,Vivekananda Shiksha Niketan - Sector 4,Raipur Rural Cluster 4,Grade 2,Numeracy,118,5,23.6,38,3,0.774,2,1,0,1,1,2,2,7,49.88,Medium Priority,Concrete Stick Bundles & Loose Sticks
+REC-0690,SCH-1049,Gramin Buniyadi Shala - Sector 5,Raipur Rural Cluster 2,Grade 4,Literacy,79,2,39.5,62,6,0.671,0,0,0,0,2,0,2,4,71.58,High Priority,Guided Partner Reading
+REC-1110,SCH-1069,Shakti Govt Primary School - Sector 7,Raipur Rural Cluster 4,Grade 4,Numeracy,112,3,37.33,6,4,0.927,1,2,0,2,0,0,1,5,32.19,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0764,SCH-1043,Saraswati Primary School - Sector 5,Raipur Rural Cluster 2,Grade 4,Literacy,141,5,28.2,12,7,0.541,1,0,0,0,0,1,0,1,55.97,Medium Priority,Akshar-Chitra Wall Chart
+REC-0376,SCH-1055,Adarsh Prathmik Shala - Sector 6,Raipur Rural Cluster 3,Grade 3,Numeracy,58,3,19.33,12,4,0.797,1,2,1,2,2,2,2,11,7.09,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0696,SCH-1055,Prathmik Shala Shaktipur - Sector 6,Raipur Rural Cluster 1,Grade 1,Literacy,204,5,40.8,9,6,0.769,1,1,0,2,2,2,0,7,30.87,Normal Priority,Guided Partner Reading
+REC-1070,SCH-1029,Kasturba Gandhi Balika Vidyalaya - Sector 3,Raipur Rural Cluster 4,Grade 5,Numeracy,78,3,26.0,24,5,0.67,4,1,0,2,0,2,2,7,56.2,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0653,SCH-1012,Rajkiya Buniyadi Shala - Sector 2,Raipur Rural Cluster 4,Grade 4,Literacy,110,4,27.5,70,2,0.855,1,0,1,0,2,0,0,3,72.77,High Priority,Guided Partner Reading
+REC-0364,SCH-1043,Panchayat Primary School - Sector 5,Raipur Rural Cluster 2,Grade 4,Literacy,55,3,18.33,8,2,0.391,0,2,0,0,2,2,0,6,30.75,Normal Priority,Guided Partner Reading
+REC-0256,SCH-1015,Rajkiya Buniyadi Shala - Sector 2,Raipur Rural Cluster 2,Grade 5,Literacy,77,3,25.67,5,2,0.52,1,2,2,0,2,1,2,9,18.02,Normal Priority,Guided Partner Reading
+REC-0939,SCH-1058,Prathmik Shala Shaktipur - Sector 6,Raipur Rural Cluster 2,Grade 2,Literacy,65,3,21.67,35,4,0.385,2,0,1,2,0,0,2,5,59.66,Medium Priority,Akshar-Chitra Wall Chart
+REC-0513,SCH-1032,Navodaya Prathmik Shala - Sector 4,Raipur Rural Cluster 1,Grade 1,Numeracy,174,3,58.0,12,6,0.851,1,0,0,1,0,1,2,4,51.01,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0906,SCH-1025,Prathmik Shala Shaktipur - Sector 3,Raipur Rural Cluster 4,Grade 3,Numeracy,214,6,35.67,6,7,0.823,1,0,2,1,0,2,0,5,38.32,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0742,SCH-1021,Vivekananda Shiksha Niketan - Sector 3,Raipur Rural Cluster 4,Grade 3,Numeracy,115,3,38.33,23,6,0.617,2,0,0,0,2,0,1,3,60.74,Medium Priority,Think-Pair-Share Math Talk
+REC-0291,SCH-1050,Kasturba Gandhi Balika Vidyalaya - Sector 6,Raipur Rural Cluster 2,Grade 3,Literacy,129,5,25.8,7,3,0.942,4,2,2,2,1,1,1,9,30.75,Normal Priority,Guided Partner Reading
+REC-0676,SCH-1035,Panchayat Primary School - Sector 4,Raipur Rural Cluster 1,Grade 4,Numeracy,83,3,27.67,71,4,0.781,2,2,1,0,0,2,2,7,65.51,High Priority,Ganit Mala (Beaded Number Line)
+REC-0251,SCH-1010,Panchayat Primary School - Sector 2,Raipur Rural Cluster 3,Grade 2,Literacy,180,6,30.0,52,5,0.899,1,2,1,0,2,1,0,6,52.65,Medium Priority,Guided Partner Reading
+REC-1079,SCH-1038,Bal Bharti Vidyalaya - Sector 4,Raipur Rural Cluster 3,Grade 2,Literacy,120,4,30.0,56,5,0.693,2,0,2,0,0,0,0,2,78.55,High Priority,Akshar-Chitra Wall Chart
+REC-0439,SCH-1038,Vivekananda Shiksha Niketan - Sector 4,Raipur Rural Cluster 3,Grade 2,Numeracy,143,4,35.75,10,4,0.515,1,0,1,0,1,2,1,5,43.15,Medium Priority,Think-Pair-Share Math Talk
+REC-0430,SCH-1029,Mahatma Gandhi Bal Vidyalaya - Sector 3,Raipur Rural Cluster 2,Grade 4,Numeracy,188,5,37.6,7,2,0.658,1,0,2,1,0,1,1,5,46.13,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-1071,SCH-1030,Zilla Parishad Primary School - Sector 4,Raipur Rural Cluster 4,Grade 4,Literacy,92,4,23.0,6,5,0.506,5,0,0,1,1,0,0,2,59.57,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0412,SCH-1011,Kendriya Prathmik Vidyalaya - Sector 2,Raipur Rural Cluster 1,Grade 5,Numeracy,260,7,37.14,5,8,0.761,2,0,2,0,1,1,0,4,48.88,Medium Priority,Think-Pair-Share Math Talk
+REC-0126,SCH-1045,Kendriya Prathmik Vidyalaya - Sector 5,Raipur Rural Cluster 2,Grade 3,Numeracy,244,7,34.86,43,4,0.731,4,1,1,0,2,1,0,5,69.57,High Priority,Think-Pair-Share Math Talk
+REC-1191,SCH-1070,Vivekananda Shiksha Niketan - Sector 8,Raipur Rural Cluster 1,Grade 3,Numeracy,101,3,33.67,16,6,0.604,2,1,1,1,2,0,0,5,46.61,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0659,SCH-1018,Vivekananda Shiksha Niketan - Sector 2,Raipur Rural Cluster 1,Grade 3,Literacy,168,5,33.6,12,3,0.356,2,0,0,1,2,1,1,5,47.24,Medium Priority,Guided Partner Reading
+REC-1129,SCH-1008,Prathmik Shala Shaktipur - Sector 1,Raipur Rural Cluster 4,Grade 4,Literacy,90,3,30.0,14,7,0.347,2,2,0,0,1,0,2,5,52.43,Medium Priority,Guided Partner Reading
+REC-0029,SCH-1028,Zilla Parishad Primary School - Sector 3,Raipur Rural Cluster 2,Grade 2,Numeracy,126,3,42.0,24,1,0.764,0,2,2,2,2,1,0,9,28.4,Normal Priority,Think-Pair-Share Math Talk
+REC-0667,SCH-1026,Kasturba Gandhi Balika Vidyalaya - Sector 3,Raipur Rural Cluster 4,Grade 4,Numeracy,87,4,21.75,24,8,0.871,0,2,2,2,0,0,1,7,25.82,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0095,SCH-1014,Vivekananda Shiksha Niketan - Sector 2,Raipur Rural Cluster 3,Grade 2,Literacy,146,4,36.5,11,4,0.825,1,1,2,2,1,2,1,9,22.94,Normal Priority,Guided Partner Reading
+REC-1035,SCH-1074,Gramin Buniyadi Shala - Sector 8,Raipur Rural Cluster 1,Grade 5,Literacy,112,5,22.4,12,3,0.634,4,0,2,0,0,1,0,3,62.82,Medium Priority,Akshar-Chitra Wall Chart
+REC-0141,SCH-1060,Kendriya Prathmik Vidyalaya - Sector 7,Raipur Rural Cluster 4,Grade 3,Literacy,159,6,26.5,20,5,0.957,1,0,2,1,1,2,2,8,26.38,Normal Priority,Akshar-Chitra Wall Chart
+REC-0759,SCH-1038,Prathmik Shala Shaktipur - Sector 4,Raipur Rural Cluster 4,Grade 1,Literacy,231,6,38.5,7,8,0.646,0,0,0,2,2,0,0,4,45.09,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0272,SCH-1031,Kendriya Prathmik Vidyalaya - Sector 4,Raipur Rural Cluster 4,Grade 2,Numeracy,113,3,37.67,15,7,0.556,1,0,1,2,0,1,0,4,55.87,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-1094,SCH-1053,Prathmik Shala Shaktipur - Sector 6,Raipur Rural Cluster 4,Grade 4,Literacy,78,3,26.0,20,4,0.632,0,1,1,1,2,0,0,5,37.45,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0111,SCH-1030,Prathmik Shala Shaktipur - Sector 4,Raipur Rural Cluster 3,Grade 3,Numeracy,109,4,27.25,21,4,0.82,1,2,2,1,1,1,2,9,23.91,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0297,SCH-1056,Panchayat Primary School - Sector 6,Raipur Rural Cluster 4,Grade 5,Numeracy,127,5,25.4,31,2,0.627,2,0,2,2,2,0,0,6,45.02,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0896,SCH-1015,Rajkiya Buniyadi Shala - Sector 2,Raipur Rural Cluster 3,Grade 5,Numeracy,35,3,11.67,29,3,0.566,2,1,1,2,0,1,2,7,36.83,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0485,SCH-1004,Mahatma Gandhi Bal Vidyalaya - Sector 1,Raipur Rural Cluster 1,Grade 5,Literacy,129,3,43.0,18,5,0.325,3,1,0,1,1,0,0,3,61.39,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0936,SCH-1055,Gramin Buniyadi Shala - Sector 6,Raipur Rural Cluster 2,Grade 3,Numeracy,81,3,27.0,75,7,0.655,1,1,2,2,2,2,1,10,45.4,Medium Priority,Think-Pair-Share Math Talk
+REC-0707,SCH-1066,Kendriya Prathmik Vidyalaya - Sector 7,Raipur Rural Cluster 1,Grade 2,Literacy,156,5,31.2,5,6,0.772,2,0,0,0,1,1,2,4,50.51,Medium Priority,Guided Partner Reading
+REC-1175,SCH-1054,Rajkiya Buniyadi Shala - Sector 6,Raipur Rural Cluster 3,Grade 2,Literacy,160,5,32.0,5,4,0.994,4,0,2,2,1,1,0,6,43.61,Medium Priority,Guided Partner Reading
+REC-0711,SCH-1070,Zilla Parishad Primary School - Sector 8,Raipur Rural Cluster 2,Grade 4,Literacy,136,5,27.2,5,2,0.453,1,2,1,2,2,1,1,9,21.24,Normal Priority,Guided Partner Reading
+REC-0858,SCH-1057,Adarsh Prathmik Shala - Sector 6,Raipur Rural Cluster 3,Grade 2,Literacy,135,4,33.75,9,6,0.725,2,1,0,1,1,2,0,5,43.37,Medium Priority,Guided Partner Reading
+REC-0492,SCH-1011,Bal Bharti Vidyalaya - Sector 2,Raipur Rural Cluster 4,Grade 4,Numeracy,225,5,45.0,29,8,0.82,0,2,1,0,0,0,2,5,47.94,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0318,SCH-1077,Prathmik Vidyalaya Rampur - Sector 8,Raipur Rural Cluster 4,Grade 5,Numeracy,177,5,35.4,27,1,0.882,3,0,1,0,0,0,0,1,74.56,High Priority,Ganit Mala (Beaded Number Line)
+REC-0202,SCH-1041,Shakti Govt Primary School - Sector 5,Raipur Rural Cluster 2,Grade 4,Numeracy,147,6,24.5,62,9,0.925,0,2,2,2,2,0,2,10,32.9,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0429,SCH-1028,Prathmik Shala Shaktipur - Sector 3,Raipur Rural Cluster 3,Grade 1,Numeracy,73,3,24.33,45,8,0.477,2,2,1,0,1,2,2,8,46.53,Medium Priority,Think-Pair-Share Math Talk
+REC-0728,SCH-1007,Rajkiya Buniyadi Shala - Sector 1,Raipur Rural Cluster 3,Grade 4,Numeracy,164,4,41.0,9,3,0.387,3,2,2,0,0,1,0,5,54.61,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0885,SCH-1004,Bal Bharti Vidyalaya - Sector 1,Raipur Rural Cluster 2,Grade 4,Numeracy,72,2,36.0,9,6,0.48,1,0,0,0,1,1,1,3,49.56,Medium Priority,Think-Pair-Share Math Talk
+REC-0296,SCH-1055,Zilla Parishad Primary School - Sector 6,Raipur Rural Cluster 3,Grade 3,Numeracy,79,2,39.5,16,10,0.718,0,2,0,0,0,1,0,3,47.5,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0877,SCH-1076,Prathmik Vidyalaya Rampur - Sector 8,Raipur Rural Cluster 2,Grade 2,Literacy,61,3,20.33,15,5,0.472,3,2,0,2,0,0,2,6,45.19,Medium Priority,Akshar-Chitra Wall Chart
+REC-1022,SCH-1061,Prathmik Vidyalaya Rampur - Sector 7,Raipur Rural Cluster 1,Grade 4,Numeracy,118,4,29.5,23,5,0.236,1,0,0,2,1,1,0,4,52.88,Medium Priority,Concrete Stick Bundles & Loose Sticks
+REC-0070,SCH-1069,Prathmik Shala Shaktipur - Sector 7,Raipur Rural Cluster 1,Grade 1,Numeracy,72,3,24.0,12,9,0.272,2,0,2,2,2,2,2,10,27.13,Normal Priority,Ganit Mala (Beaded Number Line)
+REC-0211,SCH-1050,Vivekananda Shiksha Niketan - Sector 6,Raipur Rural Cluster 3,Grade 2,Literacy,138,4,34.5,34,5,0.815,2,0,1,0,2,0,2,5,54.73,Medium Priority,Guided Partner Reading
+REC-0281,SCH-1040,Mahatma Gandhi Bal Vidyalaya - Sector 5,Raipur Rural Cluster 4,Grade 1,Numeracy,63,3,21.0,46,8,0.453,1,1,2,0,1,2,0,6,58.95,Medium Priority,Think-Pair-Share Math Talk
+REC-0067,SCH-1066,Kasturba Gandhi Balika Vidyalaya - Sector 7,Raipur Rural Cluster 2,Grade 2,Literacy,52,2,26.0,18,5,0.814,2,0,2,2,1,0,2,7,36.17,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0737,SCH-1016,Panchayat Primary School - Sector 2,Raipur Rural Cluster 3,Grade 2,Numeracy,137,4,34.25,19,2,0.963,2,0,0,0,0,0,2,2,59.56,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0361,SCH-1040,Bal Bharti Vidyalaya - Sector 5,Raipur Rural Cluster 3,Grade 5,Literacy,88,3,29.33,57,4,0.9,1,2,0,1,2,2,2,9,43.49,Medium Priority,Akshar-Chitra Wall Chart
+REC-1120,SCH-1079,Adarsh Prathmik Shala - Sector 8,Raipur Rural Cluster 1,Grade 3,Literacy,91,3,30.33,22,6,0.938,2,0,1,2,2,0,0,5,41.84,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0584,SCH-1023,Saraswati Primary School - Sector 3,Raipur Rural Cluster 1,Grade 1,Literacy,155,4,38.75,36,4,0.615,4,0,0,1,0,1,2,4,72.96,High Priority,Akshar-Chitra Wall Chart
+REC-0229,SCH-1068,Panchayat Primary School - Sector 7,Raipur Rural Cluster 4,Grade 3,Numeracy,131,4,32.75,5,5,0.615,4,2,1,0,0,0,0,3,67.76,High Priority,Ganit Mala (Beaded Number Line)
+REC-0304,SCH-1063,Panchayat Primary School - Sector 7,Raipur Rural Cluster 2,Grade 1,Numeracy,105,4,26.25,16,6,0.653,5,1,0,0,0,0,1,2,65.48,High Priority,Ganit Mala (Beaded Number Line)
+REC-0582,SCH-1021,Adarsh Prathmik Shala - Sector 3,Raipur Rural Cluster 2,Grade 2,Numeracy,147,4,36.75,75,6,0.697,2,0,1,0,2,0,1,4,79.52,High Priority,Think-Pair-Share Math Talk
+REC-1041,SCH-1000,Adarsh Prathmik Shala - Sector 1,Raipur Rural Cluster 3,Grade 4,Numeracy,92,2,46.0,11,5,0.835,5,0,0,2,1,1,0,4,61.64,Medium Priority,Concrete Stick Bundles & Loose Sticks
+REC-0940,SCH-1059,Zilla Parishad Primary School - Sector 6,Raipur Rural Cluster 4,Grade 1,Numeracy,168,6,28.0,39,6,0.546,0,1,0,2,2,0,1,6,39.1,Normal Priority,Quick Thumbs Check / Exit Slates
+REC-0174,SCH-1013,Zilla Parishad Primary School - Sector 2,Raipur Rural Cluster 3,Grade 4,Numeracy,204,5,40.8,13,9,0.846,1,2,1,0,2,2,1,8,33.89,Normal Priority,Think-Pair-Share Math Talk
+REC-0837,SCH-1036,Kendriya Prathmik Vidyalaya - Sector 4,Raipur Rural Cluster 4,Grade 3,Literacy,111,3,37.0,31,8,0.664,2,1,1,0,0,0,0,2,70.62,High Priority,Akshar-Chitra Wall Chart
+REC-0020,SCH-1019,Mahatma Gandhi Bal Vidyalaya - Sector 2,Raipur Rural Cluster 4,Grade 2,Literacy,62,2,31.0,36,7,0.776,1,1,1,2,1,1,2,8,32.94,Normal Priority,Akshar-Chitra Wall Chart
+REC-0822,SCH-1021,Vivekananda Shiksha Niketan - Sector 3,Raipur Rural Cluster 4,Grade 4,Numeracy,173,5,34.6,51,4,0.734,1,2,2,1,0,2,2,9,41.12,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0267,SCH-1026,Prathmik Vidyalaya Rampur - Sector 3,Raipur Rural Cluster 2,Grade 3,Literacy,91,2,45.5,15,5,0.22,3,0,0,0,2,0,1,3,62.96,Medium Priority,Guided Partner Reading
+REC-0155,SCH-1074,Bal Bharti Vidyalaya - Sector 8,Raipur Rural Cluster 1,Grade 4,Literacy,105,4,26.25,7,3,0.768,0,0,0,1,0,0,0,1,50.03,Medium Priority,Akshar-Chitra Wall Chart
+REC-0520,SCH-1039,Adarsh Prathmik Shala - Sector 4,Raipur Rural Cluster 4,Grade 1,Literacy,211,5,42.2,7,4,0.51,1,0,0,0,1,0,2,3,49.74,Medium Priority,Guided Partner Reading
+REC-0891,SCH-1010,Mahatma Gandhi Bal Vidyalaya - Sector 2,Raipur Rural Cluster 2,Grade 5,Numeracy,69,3,23.0,6,6,0.638,2,2,1,0,1,0,1,5,40.8,Medium Priority,Think-Pair-Share Math Talk
+REC-1010,SCH-1049,Adarsh Prathmik Shala - Sector 5,Raipur Rural Cluster 3,Grade 3,Literacy,176,5,35.2,30,6,0.924,3,1,2,0,1,2,0,6,55.44,Medium Priority,Guided Partner Reading
+REC-0757,SCH-1036,Vivekananda Shiksha Niketan - Sector 4,Raipur Rural Cluster 3,Grade 4,Literacy,174,6,29.0,7,5,0.763,1,1,2,2,2,1,1,9,20.7,Normal Priority,Guided Partner Reading
+REC-0938,SCH-1057,Kasturba Gandhi Balika Vidyalaya - Sector 6,Raipur Rural Cluster 3,Grade 2,Numeracy,155,5,31.0,15,2,0.484,2,1,2,1,0,1,1,6,47.64,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0280,SCH-1039,Gramin Buniyadi Shala - Sector 4,Raipur Rural Cluster 2,Grade 1,Numeracy,177,6,29.5,6,6,0.51,1,0,1,2,2,1,1,7,27.66,Normal Priority,Think-Pair-Share Math Talk
+REC-0815,SCH-1014,Kasturba Gandhi Balika Vidyalaya - Sector 2,Raipur Rural Cluster 3,Grade 1,Numeracy,95,4,23.75,16,8,0.661,2,0,2,1,1,0,1,5,44.43,Medium Priority,Quick Thumbs Check / Exit Slates
+REC-0668,SCH-1027,Kendriya Prathmik Vidyalaya - Sector 3,Raipur Rural Cluster 1,Grade 4,Numeracy,229,5,45.8,6,9,0.904,1,2,0,0,1,1,0,4,43.56,Medium Priority,Think-Pair-Share Math Talk
+REC-1189,SCH-1068,Navodaya Prathmik Shala - Sector 7,Raipur Rural Cluster 1,Grade 2,Numeracy,162,4,40.5,75,7,0.743,2,2,0,0,2,0,0,4,83.14,High Priority,Think-Pair-Share Math Talk
+REC-0371,SCH-1050,Bal Bharti Vidyalaya - Sector 6,Raipur Rural Cluster 3,Grade 1,Numeracy,81,4,20.25,27,7,0.579,1,0,0,0,2,1,1,4,48.39,Medium Priority,Think-Pair-Share Math Talk
+REC-0041,SCH-1040,Kasturba Gandhi Balika Vidyalaya - Sector 5,Raipur Rural Cluster 1,Grade 3,Literacy,59,3,19.67,32,3,0.583,1,1,2,2,1,2,2,10,32.42,Normal Priority,Akshar-Chitra Wall Chart
+REC-0279,SCH-1038,Adarsh Prathmik Shala - Sector 4,Raipur Rural Cluster 3,Grade 4,Numeracy,60,2,30.0,58,3,0.467,1,2,0,1,0,1,0,4,62.44,Medium Priority,Ganit Mala (Beaded Number Line)
+REC-0098,SCH-1017,Adarsh Prathmik Shala - Sector 2,Raipur Rural Cluster 1,Grade 1,Numeracy,128,5,25.6,29,6,0.376,2,1,0,0,0,2,2,5,54.57,Medium Priority,Ganit Mala (Beaded Number Line)

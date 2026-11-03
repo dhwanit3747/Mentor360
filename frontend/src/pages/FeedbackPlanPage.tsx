@@ -17,6 +17,7 @@ import {
   GeneratedFeedbackDraft
 } from '../utils/feedbackGenerator';
 import { DEMO_ACTIVITIES } from '../services/demoActivityLibrary';
+import { recommendActivityWithANN } from '../services/api';
 import {
   Sparkles,
   CheckCircle2,
@@ -27,7 +28,8 @@ import {
   HelpCircle,
   ThumbsUp,
   RefreshCw,
-  Check
+  Check,
+  Cpu
 } from 'lucide-react';
 import { IndicatorBadge } from '../components/common/Badge';
 
@@ -58,6 +60,15 @@ export const FeedbackPlanPage: React.FC = () => {
   const [savedSuccess, setSavedSuccess] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
 
+  // Machine Learning: Artificial Neural Network (MLP) Recommender State
+  const [annRecommendation, setAnnRecommendation] = useState<{
+    recommended_activity: string;
+    confidence: number;
+    summary: string;
+    ranking: Array<{ activity: string; confidence_pct: number }>;
+  } | null>(null);
+  const [annLoading, setAnnLoading] = useState(false);
+
   useEffect(() => {
     loadData();
   }, []);
@@ -85,6 +96,24 @@ export const FeedbackPlanPage: React.FC = () => {
     }
   };
 
+  const fetchANNRecommendation = async (obs: Observation) => {
+    try {
+      setAnnLoading(true);
+      const res = await recommendActivityWithANN({
+        subject: obs.subject,
+        grade: obs.grade,
+        indicators: obs.indicators
+      });
+      if (res) {
+        setAnnRecommendation(res);
+      }
+    } catch (e) {
+      console.warn('ANN inference failed:', e);
+    } finally {
+      setAnnLoading(false);
+    }
+  };
+
   const applyObservationToPlan = (obs: Observation) => {
     setCurrentObservation(obs);
     const draft = generateFeedbackDraftFromObservation(obs);
@@ -95,6 +124,9 @@ export const FeedbackPlanPage: React.FC = () => {
     setAgreedAction(draft.agreedAction);
     setFollowUpDate(draft.followUpDate);
     setSuccessIndicator(draft.successIndicator);
+
+    // Run Neural Network Inference
+    fetchANNRecommendation(obs);
   };
 
   const handleSelectObservation = (obsId: string) => {
@@ -308,6 +340,52 @@ export const FeedbackPlanPage: React.FC = () => {
                 onChange={(e) => setImprovementArea(e.target.value)}
                 className="w-full p-2.5 bg-[#F7F9F8] border border-[#E2ECE8] rounded-xl text-xs focus:bg-white focus:border-[#176B5B]"
               />
+            </div>
+
+            {/* Neural Network (ANN) Activity Recommender - Unit 5 of Syllabus */}
+            <div className="p-3.5 bg-gradient-to-r from-[#F0FDF4] to-[#DCFCE7] border border-[#22C55E]/40 rounded-xl space-y-2">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-extrabold text-[#15803D] flex items-center gap-1.5">
+                  <Cpu className="w-4 h-4 text-[#16A34A]" />
+                  ANN Pedagogy Recommender (Multi-Layer Perceptron)
+                </span>
+                {annLoading ? (
+                  <span className="text-[10px] text-[#15803D] animate-pulse">Running Neural Inference...</span>
+                ) : annRecommendation ? (
+                  <span className="text-[10px] bg-[#16A34A] text-white font-bold px-2 py-0.5 rounded-full">
+                    ANN Confidence: {annRecommendation.confidence}%
+                  </span>
+                ) : null}
+              </div>
+
+              {annRecommendation && (
+                <div className="space-y-1.5 text-xs">
+                  <div className="flex items-center justify-between bg-white/80 p-2 rounded-lg border border-[#BBF7D0]">
+                    <div>
+                      <span className="text-[10px] text-[#15803D] font-bold uppercase tracking-wider block">Recommended Technique</span>
+                      <span className="font-extrabold text-[#166534]">{annRecommendation.recommended_activity}</span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        const matched = DEMO_ACTIVITIES.find(a => annRecommendation.recommended_activity.includes(a.title.split('(')[0].trim()));
+                        if (matched) {
+                          handleSelectActivity(matched);
+                        } else {
+                          setDemonstrationActivity(annRecommendation.recommended_activity + ': ' + annRecommendation.summary);
+                        }
+                      }}
+                      className="px-2.5 py-1 bg-[#16A34A] hover:bg-[#15803D] text-white text-[11px] font-bold rounded-lg transition-colors flex items-center gap-1"
+                    >
+                      <Check className="w-3 h-3" />
+                      Apply ANN Recommendation
+                    </button>
+                  </div>
+                  <p className="text-[11px] text-[#14532D] leading-relaxed">
+                    {annRecommendation.summary}
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* 3. Demonstration teaching technique */}

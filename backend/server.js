@@ -223,6 +223,35 @@ app.get('/api/dashboard/summary', (req, res) => {
   });
 });
 
+// ML Engine Proxy (Routes requests to Python Flask ML Service)
+const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://127.0.0.1:5001';
+
+app.all('/api/ml/*', async (req, res) => {
+  try {
+    const mlPath = req.originalUrl;
+    const targetUrl = `${ML_SERVICE_URL}${mlPath}`;
+    
+    const options = {
+      method: req.method,
+      headers: { 'Content-Type': 'application/json' },
+    };
+    
+    if (['POST', 'PUT', 'PATCH'].includes(req.method) && req.body && Object.keys(req.body).length > 0) {
+      options.body = JSON.stringify(req.body);
+    }
+    
+    const response = await fetch(targetUrl, options);
+    const data = await response.json();
+    return res.status(response.status).json(data);
+  } catch (err) {
+    return res.status(503).json({
+      success: false,
+      error: 'Python ML service unavailable at ' + ML_SERVICE_URL,
+      details: err.message
+    });
+  }
+});
+
 // 404 fallback
 app.use((req, res) => {
   res.status(404).json({ success: false, error: `Route ${req.method} ${req.path} not found` });

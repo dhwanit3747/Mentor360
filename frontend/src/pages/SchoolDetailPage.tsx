@@ -25,6 +25,9 @@ import {
 } from 'lucide-react';
 import { VisitStatusBadge, ActionStatusBadge, IndicatorBadge } from '../components/common/Badge';
 import { PriorityBadge } from '../components/common/PriorityBadge';
+import { MlPriorityCard } from '../components/common/MlPriorityCard';
+import { MlPriorityPrediction, predictPriorityWithML } from '../services/api';
+import { buildMlPriorityInput } from '../utils/mlPriority';
 
 export const SchoolDetailPage: React.FC = () => {
   const { schoolId } = useParams<{ schoolId: string }>();
@@ -34,6 +37,8 @@ export const SchoolDetailPage: React.FC = () => {
   const [visits, setVisits] = useState<Visit[]>([]);
   const [observations, setObservations] = useState<Observation[]>([]);
   const [actionPlans, setActionPlans] = useState<ActionPlan[]>([]);
+  const [mlPrediction, setMlPrediction] = useState<MlPriorityPrediction | null>(null);
+  const [mlLoading, setMlLoading] = useState(false);
   const [activeTab, setActiveTab] = useState<'overview' | 'visits' | 'observations' | 'actionPlans'>('overview');
   const [loading, setLoading] = useState(true);
 
@@ -42,6 +47,26 @@ export const SchoolDetailPage: React.FC = () => {
       loadDetails(schoolId);
     }
   }, [schoolId]);
+
+  useEffect(() => {
+    if (!school) return;
+
+    let active = true;
+    setMlLoading(true);
+    predictPriorityWithML(buildMlPriorityInput(school, visits, observations, actionPlans))
+      .then(prediction => {
+        if (active) setMlPrediction(prediction);
+      })
+      .catch(error => {
+        console.error('Failed to calculate school ML prediction', error);
+        if (active) setMlPrediction(null);
+      })
+      .finally(() => {
+        if (active) setMlLoading(false);
+      });
+
+    return () => { active = false; };
+  }, [school, visits, observations, actionPlans]);
 
   const loadDetails = async (id: string) => {
     try {
@@ -238,6 +263,12 @@ export const SchoolDetailPage: React.FC = () => {
 
         {/* Right 1 Col: Next Visit, Action Plans, Roster, Disclaimer */}
         <div className="space-y-5">
+          <MlPriorityCard
+            prediction={mlPrediction}
+            loading={mlLoading}
+            schoolName={school.name}
+          />
+
           {/* Next scheduled visit card matching Figma */}
           <div className="card-base p-5 bg-[#F0F8F6] border-[#AFDCD1] space-y-3">
             <div className="flex items-center justify-between">

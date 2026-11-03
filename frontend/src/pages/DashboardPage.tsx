@@ -13,7 +13,10 @@ import {
   getAllObservations
 } from '../services/database';
 import { PriorityBadge } from '../components/common/PriorityBadge';
+import { MlPriorityCard } from '../components/common/MlPriorityCard';
 import { VisitStatusBadge, ActionStatusBadge } from '../components/common/Badge';
+import { MlPriorityPrediction, predictPriorityWithML } from '../services/api';
+import { buildMlPriorityInput } from '../utils/mlPriority';
 import {
   Building2,
   Calendar,
@@ -36,12 +39,44 @@ export const DashboardPage: React.FC = () => {
   const [visits, setVisits] = useState<Visit[]>([]);
   const [actionPlans, setActionPlans] = useState<ActionPlan[]>([]);
   const [observations, setObservations] = useState<Observation[]>([]);
+  const [mlPredictions, setMlPredictions] = useState<Record<string, MlPriorityPrediction>>({});
+  const [mlLoading, setMlLoading] = useState(false);
   const [taskFilter, setTaskFilter] = useState<'all' | 'high' | 'followup'>('all');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     loadDashboardData();
   }, []);
+
+  useEffect(() => {
+    if (!schools.length) return;
+
+    let active = true;
+    setMlLoading(true);
+    Promise.all(schools.map(async school => [
+      school.id,
+      await predictPriorityWithML(buildMlPriorityInput(
+        school,
+        visits.filter(visit => visit.schoolId === school.id),
+        observations.filter(observation => observation.schoolId === school.id),
+        actionPlans.filter(plan => plan.schoolId === school.id)
+      ))
+    ] as const)).then(results => {
+      if (!active) return;
+      setMlPredictions(Object.fromEntries(
+        results.filter((result): result is readonly [string, MlPriorityPrediction] => result[1] !== null)
+      ));
+      setMlLoading(false);
+    }).catch(error => {
+      console.error('Failed to calculate dashboard ML predictions', error);
+      if (active) {
+        setMlPredictions({});
+        setMlLoading(false);
+      }
+    });
+
+    return () => { active = false; };
+  }, [schools, visits, observations, actionPlans]);
 
   const loadDashboardData = async () => {
     try {
@@ -83,6 +118,9 @@ export const DashboardPage: React.FC = () => {
       if (taskFilter === 'followup') return v.followUpImportance >= 1 || v.purpose.toLowerCase().includes('follow-up');
       return true;
     });
+  const topMlEntry = Object.entries(mlPredictions)
+    .sort(([, a], [, b]) => b.priority_score - a.priority_score)[0];
+  const topMlSchool = topMlEntry && schools.find(school => school.id === topMlEntry[0]);
 
   // Build dynamic 6-day week strip starting Monday of current week
   const today = new Date();
@@ -188,6 +226,12 @@ export const DashboardPage: React.FC = () => {
         </div>
       </div>
 
+      <MlPriorityCard
+        prediction={topMlEntry?.[1] || null}
+        loading={mlLoading}
+        schoolName={topMlSchool?.name}
+      />
+
       {/* Main Content Layout: Tasks (Left 65%) & Weekly Preview (Right 35%) */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Column: Tasks & Reminder Banner */}
@@ -243,6 +287,7 @@ export const DashboardPage: React.FC = () => {
             <div className="divide-y divide-[#E2ECE8] space-y-3">
               {prioritizedTasks.map((visit, index) => {
                 const school = schools.find(s => s.id === visit.schoolId);
+                const mlPrediction = mlPredictions[visit.schoolId];
                 const isHigh = (visit.mentorPriorityOverride ?? visit.priorityScore) >= 14;
 
                 return (
@@ -273,6 +318,12 @@ export const DashboardPage: React.FC = () => {
                       <p className="text-xs font-semibold text-[#25332F]">
                         {visit.purpose}
                       </p>
+
+                      {mlPrediction && (
+                        <p className="text-[11px] font-semibold text-[#176B5B]">
+                          ML estimate: {mlPrediction.priority_score}/100 · {mlPrediction.urgency_level}
+                        </p>
+                      )}
 
                       <div className="flex flex-wrap items-center gap-3 text-[11px] text-[#5A6F68]">
                         <span className="flex items-center gap-1 font-medium text-[#176B5B]">
